@@ -738,3 +738,23 @@ textarea.form-control {
     font-size: 2rem;
   }
 }
+
+.btn-language-switcher {
+  background-color: var(--primary);
+  color: var(--gray-800);
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-language-switcher:hover {
+  background-color: var(--primary-hover);
+}
+
+.flex.border.rounded.overflow-hidden.ml-2 button {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.flex.border.rounded.overflow-hidden.ml-2 button:hover {
+  background-color: var(--primary-hover);
+}

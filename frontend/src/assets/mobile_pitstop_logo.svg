@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Mobile Pitstop Logo with Wrench and Phone -->
+  <g fill="#000">
+    <!-- Text: MOBILE PITSTOP -->
+    <text x="65" y="120" font-family="Arial, sans-serif" font-weight="bold" font-size="60">MOBILE</text>
+    <text x="450" y="120" font-family="Arial, sans-serif" font-weight="bold" font-size="60">PITSTOP</text>
+    
+    <!-- Text: repair shop -->
+    <text x="110" y="160" font-family="Arial, sans-serif" font-size="30">r e p a i r</text>
+    <text x="450" y="160" font-family="Arial, sans-serif" font-size="30">s h o p</text>
+    
+    <!-- Wrench and Phone Icon -->
+    <path d="M320 180 C380 120, 450 180, 400 250 L500 350 C520 370, 520 400, 500 420 C480 440, 450 440, 430 420 L330 320 C260 370, 200 300, 260 240 Z" stroke="#000" stroke-width="10" fill="none"/>
+    <circle cx="290" cy="210" r="10" />
+    <circle cx="240" cy="260" r="10" />
+    <circle cx="270" cy="290" r="10" />
+  </g>
+  
+  <!-- Phone Display -->
+  <g transform="translate(400, 500) scale(0.8)">
+    <rect x="-150" y="-250" width="300" height="500" rx="30" ry="30" fill="#f8f8f8" stroke="#000" stroke-width="10"/>
+    <rect x="-130" y="-230" width="260" height="460" rx="5" ry="5" fill="#6b5b95"/>
+    <rect x="-80" y="-250" width="160" height="20" rx="5" ry="5" fill="#000"/>
+  </g>
+  
+  <!-- Location Pin and Address -->
+  <g transform="translate(600, 520)">
+    <path d="M0 0 C-5 -30, -40 -30, -40 0 C-40 15, -20 40, 0 60 C20 40, 40 15, 40 0 C40 -30, 5 -30, 0 0Z" fill="#ff4d4d"/>
+    <circle cx="0" cy="0" r="10" fill="white"/>
+    <text x="50" y="0" font-family="Arial, sans-serif" font-weight="bold" font-size="24">str, Daliei, nr.2</text>
+    <text x="50" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="24">Timișoara</text>
+  </g>
+  
+  <!-- Phone Number -->
+  <g transform="translate(600, 580)">
+    <path d="M-20 0 C-20 0, -10 10, 0 10 C10 10, 15 5, 15 0 C15 -5, 10 -10, 0 -10 C-10 -10, -15 -5, -15 0 Z" fill="#333"/>
+    <text x="30" y="5" font-family="Arial, sans-serif" font-weight="bold" font-size="24">0770525474</text>
+  </g>
+</svg>

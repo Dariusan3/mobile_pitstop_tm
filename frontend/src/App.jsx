@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -8,17 +9,18 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  const [lang, setLang] = useState("en");
   return (
     <>
-      <Navbar />
+      <Navbar lang={lang} setLang={setLang} />
       <main>
-        <Hero />
-        <About />
-        <Services />
-        <Locations />
-        <Contact />
+        <Hero lang={lang} setLang={setLang} />
+        <About lang={lang} setLang={setLang} />
+        <Services lang={lang} setLang={setLang} />
+        <Locations lang={lang} setLang={setLang} />
+        <Contact lang={lang} setLang={setLang} />
       </main>
-      <Footer />
+      <Footer lang={lang} setLang={setLang} />
     </>
   );
 }

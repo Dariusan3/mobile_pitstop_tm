@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#e8f4f8"/>
+  
+  <!-- Two Phones Side by Side -->
+  <!-- Left Phone (Source) -->
+  <g transform="translate(250, 400)">
+    <rect x="-100" y="-200" width="200" height="400" rx="20" ry="20" fill="#333" stroke="#000" stroke-width="3"/>
+    <rect x="-90" y="-190" width="180" height="380" rx="10" ry="10" fill="#fff"/>
+    <rect x="-50" y="-200" width="100" height="15" rx="5" ry="5" fill="#222"/>
+    
+    <!-- Phone Screen Content -->
+    <rect x="-70" y="-150" width="140" height="300" fill="#f0f0f0"/>
+    
+    <!-- Upload Icon -->
+    <g transform="translate(0, -50)">
+      <rect x="-50" y="-10" width="100" height="60" rx="5" ry="5" fill="#4285f4"/>
+      <path d="M0 -5 L0 25 M-20 5 L0 -15 L20 5" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Text on Screen -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">Transferare</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">date pe</text>
+    <text x="0" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">"iPhone"</text>
+    
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Țineți-vă celălalt</text>
+    <text x="0" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">iPhone în apropiere</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">și conectat la</text>
+    <text x="0" y="185" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">alimentare până la</text>
+    <text x="0" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">finalizarea</text>
+    <text x="0" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">transferului.</text>
+    
+    <!-- Time Remaining -->
+    <text x="0" y="260" font-family="Arial, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Timp rămas:</text>
+    <text x="0" y="280" font-family="Arial, sans-serif" font-weight="bold" font-size="14" text-anchor="middle">Aproximativ 13</text>
+    <text x="0" y="300" font-family="Arial, sans-serif" font-weight="bold" font-size="14" text-anchor="middle">minute</text>
+  </g>
+  
+  <!-- Right Phone (Destination) -->
+  <g transform="translate(550, 400)">
+    <rect x="-100" y="-200" width="200" height="400" rx="20" ry="20" fill="#333" stroke="#000" stroke-width="3"/>
+    <rect x="-90" y="-190" width="180" height="380" rx="10" ry="10" fill="#fff"/>
+    <rect x="-50" y="-200" width="100" height="15" rx="5" ry="5" fill="#222"/>
+    
+    <!-- Phone Screen Content -->
+    <rect x="-70" y="-150" width="140" height="300" fill="#f0f0f0"/>
+    
+    <!-- Download Icon -->
+    <g transform="translate(0, -50)">
+      <rect x="-50" y="-10" width="100" height="60" rx="5" ry="5" fill="#34a853"/>
+      <path d="M0 -15 L0 15 M-20 -5 L0 15 L20 -5" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Text on Screen -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">Transferare</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">date de pe</text>
+    <text x="0" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="18" text-anchor="middle">iPhone (3)</text>
+    
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Țineți-vă celălalt</text>
+    <text x="0" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">iPhone în apropiere</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">și conectat la</text>
+    <text x="0" y="185" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">alimentare până la</text>
+    <text x="0" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">finalizarea</text>
+    <text x="0" y="215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">transferului.</text>
+    
+    <!-- Time Remaining -->
+    <text x="0" y="260" font-family="Arial, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Timp rămas:</text>
+    <text x="0" y="280" font-family="Arial, sans-serif" font-weight="bold" font-size="14" text-anchor="middle">Aproximativ 13</text>
+    <text x="0" y="300" font-family="Arial, sans-serif" font-weight="bold" font-size="14" text-anchor="middle">minute</text>
+  </g>
+  
+  <!-- Connection Cable -->
+  <path d="M250 450 C300 500, 500 400, 550 450" stroke="#888" stroke-width="5" fill="none"/>
+</svg>
